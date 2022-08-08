@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel = "tests">
 
-
 <listeners>
    <listener class-name="Academy.Listeners"></listener>
 </listeners>
@@ -16,7 +15,7 @@
       
     </classes> 
     
-     </test>
+   </test>
      
     <test thread-count="5" name="Login Test Case">
     
@@ -25,7 +24,7 @@
       <class name="Academy.login"/>
       
      </classes> 
-      
-  
-  </test> <!-- Test -->
+
+    </test> 
+    
 </suite> <!-- Suite -->

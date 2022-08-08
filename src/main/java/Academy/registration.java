@@ -18,6 +18,7 @@ public class registration extends base {
 	
 	public WebDriver driver;
 	
+	
 	@BeforeTest
 	public void intialisation() throws IOException {
 		

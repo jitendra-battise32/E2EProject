@@ -37,10 +37,7 @@ public class Listeners extends base implements ITestListener {
 		 System.out.println("Test Case is Success");
 		 
 		 extentTest.get().log(Status.PASS, "Test case is passed");
-		 
-		 
-		 
-	}
+    }
 
 	@Override
 	public void onTestFailure(ITestResult result) {

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 180.862 s <<< FAILURE! - in TestSuite
+registration(Academy.registration)  Time elapsed: 23.662 s  <<< FAILURE!
+java.lang.AssertionError: expected [Rahul Shetty Academy] but found [RahulShetty]
+	at Academy.registration.registration(registration.java:46)
+
+registration(Academy.registration)  Time elapsed: 6.943 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://courses.rahulshettyacademy.com/sign_up" class="theme-btn">...</a> is not clickable at point (1054, 27). Other element would receive the click: <div class="preloader" style="opacity: 0.584417;">...</div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BL2TRF2', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Jitendra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6520cfa7be47788faf04625e9f27e172
+	at Academy.registration.registration(registration.java:37)
+
+reg(Academy.dataDrivenregistration)  Time elapsed: 29.018 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
+	at Academy.dataDrivenregistration.reg(dataDrivenregistration.java:32)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream
+	at Academy.dataDrivenregistration.reg(dataDrivenregistration.java:32)
+

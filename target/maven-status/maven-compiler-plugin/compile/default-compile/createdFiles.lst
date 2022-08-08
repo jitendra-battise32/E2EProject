@@ -1,9 +1,11 @@
+Academy\Listeners.class
+resources\base.class
 Academy\login.class
 pageObjects\AutomationPractice1Page.class
 pageObjects\registrationPage.class
-Academy\Listeners.class
+Academy\dataDrivenregistration.class
+dataDriven\dataDriverClass.class
 pageObjects\LoginPage.class
-resources\base.class
 Academy\registration.class
 pageObjects\practicePage.class
 resources\ExtentReportNG.class
