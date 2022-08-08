@@ -28,7 +28,7 @@ public class base {
 		prop.load(fis);
 	    String browserName = prop.getProperty("browser");
 	    System.out.println(browserName);
-	    //Jitu 
+	    //Jitu tested
 
 	if (browserName.contains("chrome")) 
 	{
