@@ -1,6 +1,7 @@
 package Academy;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -9,6 +10,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import dataDriven.dataDriverClass;
 import pageObjects.registrationPage;
 import resources.base;
 
@@ -17,13 +19,11 @@ public class registration extends base {
 	public WebDriver driver;
 	
 	@BeforeTest
-	
 	public void intialisation() throws IOException {
 		
 		driver = initializeDriver();
 		
 	}
-
 	
 	@Test (dataProvider= "getData")
 	public void registration (String fullName, String email, String password)  throws IOException, InterruptedException {
@@ -70,6 +70,6 @@ public class registration extends base {
 		data[1][2] = "Jay323200#";		
 		
 		return data;
-	}
+	} 
 
 }

@@ -12,7 +12,7 @@ import dataDriven.dataDriverClass;
 import pageObjects.registrationPage;
 import resources.base;
 
-public class reg2 extends base {
+public class dataDrivenregistration extends base {
 
 	public WebDriver driver;
 	@Test
